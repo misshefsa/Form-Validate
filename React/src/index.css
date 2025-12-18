@@ -26,7 +26,7 @@ input:focus{
 padding: 3rem;
 }
 .col-lg-6{
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 input{
   border: 2px solid rgb(10, 102, 102);
@@ -39,4 +39,77 @@ h1{
 
 font-size: 2rem;
   font-family: 'Inter', sans-serif;
+}
+.cvform{
+  border:2px dashed rgba(10, 102, 102, 0.384);
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(10, 102, 102, 0.384);
+}
+.cvupload{
+  border: none;
+  box-shadow: none;
+  text-align: center;
+  background-color:  #fafafa;;
+}.cv-upload {
+  margin-top: 20px;
+}
+
+.cv-label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+  color: #222;
+}
+
+.cv-dropzone {
+  border: 2px dashed #cfcfcf;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  background: #fafafa;
+}
+
+.cv-dropzone:hover {
+  border-color: #0d6efd;
+  background: #f0f6ff;
+}
+
+.upload-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.upload-text {
+  font-weight: 500;
+  color: #333;
+}
+
+.upload-text span {
+  color: #0d6efd;
+}
+
+.file-preview {
+  text-align: center;
+}
+
+.file-name {
+  font-weight: 600;
+  color: #0d6efd;
+}
+
+.file-date {
+  font-size: 13px;
+  color: #666;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  margin-top: 6px;
 }
