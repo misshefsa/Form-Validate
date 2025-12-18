@@ -1,0 +1,42 @@
+body{
+  background-color: rgb(10, 102, 102);
+  color: rgb(10, 102, 102);
+   font-family: "Poppins", sans-serif;
+}
+input:focus{
+  outline: navajowhite;
+  box-shadow: outset 0 33px 52px rgb(13, 155, 155);
+}
+.container button{
+  background-color: rgb(13, 155, 155);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.col-lg-6 button:hover{
+  background-color: rgb(14, 177, 177);
+}
+.container{
+  background-color: white;
+  margin-top: 3rem;
+  border-radius: 1rem;
+  box-shadow: outset 10rem 10rem 22px rgb(6, 45, 71);
+padding: 3rem;
+}
+.col-lg-6{
+  margin-top: 2rem;
+}
+input{
+  border: 2px solid rgb(10, 102, 102);
+  border-radius: 5px;
+  padding: 10px;
+}
+h1{
+  color: rgb(10, 102, 102);
+  font-weight: 700;
+
+font-size: 2rem;
+  font-family: 'Inter', sans-serif;
+}
